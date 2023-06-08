@@ -1,0 +1,28 @@
+/*PARA EL ID RELOJ */
+#reloj{
+    font-family:sans-serif;
+    font-size: 60px;
+    text-shadow: 0px 0px 1px #333;
+    color: #fff;
+}
+/*PARA la classe */
+.reloj-contenedor{
+    background-color: rgb(12, 119, 206);
+    padding: 25px;
+    max-width: 350px;/*PARA no ocupar la caja completa */
+    text-align: center;/*PARA central el texto */
+    border-radius: 5px;/*PARA que la caja se vea bordeada  */
+    margin: 0 auto;/*PARA que se ponga al centro  */
+    margin-top: 10%; /*PARA el espacio que puede ocupar la caja */
+
+
+}
+/*PARA modificara el elemento de fecha  */
+#fecha{
+    letter-spacing: 10px;/*PARA separararla  */
+    font-size: 15px;/*Ppara hacerlo mas pequeno*/
+
+}
+.animar{
+    border: rgb(0, 0, 0) 2px solid; /*PARA modificara el ancho del border   */
+}
